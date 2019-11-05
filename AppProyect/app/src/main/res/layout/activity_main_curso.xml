@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCFFFF"
+    android:contextClickable="false"
+    tools:context=".Curso.MainCurso">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="341dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="46dp"
+        android:text="Cursos"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#F5780C"
+        android:textSize="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <ImageButton
+        android:id="@+id/btnOpcionRegistrocurso"
+        android:layout_width="154dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="401dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="onClick"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/registro" />
+
+    <ImageButton
+        android:id="@+id/btnConsultaListviewcurso"
+        android:layout_width="154dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="265dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="onClick"
+
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/listview" />
+
+    <ImageButton
+        android:id="@+id/btnConsultaSpinnercurso"
+        android:layout_width="154dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="268dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="onClick"
+
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/spinner" />
+
+    <ImageButton
+        android:id="@+id/btnListCurso"
+        android:layout_width="154dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="136dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="onClick"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/recycle" />
+
+    <ImageButton
+        android:id="@+id/btnconsultacurso"
+        android:layout_width="154dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="402dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="onClick"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/search" />
+
+</RelativeLayout>

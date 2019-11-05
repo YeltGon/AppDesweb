@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Curso.DetalleCurso">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id Curso"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/campoidcurs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1094"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Curso"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/camponombrecurs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cristian David Henao"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
